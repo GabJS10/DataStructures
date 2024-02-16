@@ -1,0 +1,13 @@
+from Pila import Pila
+pila = Pila(5)
+pila.push(45)
+pila.push(34)
+pila.push(10)
+pila.push(33)
+pila.push(81)
+pila.push(1)
+pila.show()
+pila.pop()
+print(pila.Size())
+print(pila.peek())
+pila.show()
